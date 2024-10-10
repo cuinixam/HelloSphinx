@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "Hello Sphinx"
+version = "0.0.1"
+description = "Playground for generating Sphinx documentation"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+myst-parser = ">=4.0"
+sphinx = ">=8.1"
