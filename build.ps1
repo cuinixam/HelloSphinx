@@ -39,7 +39,7 @@ try {
             Remove-Path "docs\$directory\build"
         }
         # Generate documentation
-        Invoke-CommandLine ".venv\Scripts\sphinx-build.exe docs\$directory docs\$directory\build"
+        Invoke-CommandLine ".venv\Scripts\sphinx-build.exe -E -a docs\$directory\docs docs\$directory\build"
     }
 
 }
